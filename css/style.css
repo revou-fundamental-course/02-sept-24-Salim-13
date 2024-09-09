@@ -1,0 +1,86 @@
+.main-header{
+    text-align: center;
+    }
+
+.selection-content{
+    display:flex; 
+    flex-direction: column;
+    }
+
+.selection-btn{
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    }
+
+.skyblue-color{
+    background-color: skyblue;
+
+}
+
+.darkorange-color{
+    background-color: darkorange;
+}
+
+/*luas segitiga*/
+.luas-segitiga-header{ 
+    text-align: center;
+    border: 1px solid;
+    background-color: darkgreen;
+    color: chartreuse;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+.luas-segitiga-content{
+    display: flex;
+    flex-direction:column;
+}
+.luas-segitiga-img{ 
+    width: 204px;
+    aspect-ratio: 3/2;
+    border: 1px solid;
+    background-image: url(https://i1.wp.com/saintif.com/wp-content/uploads/2020/07/Slide1-9.jpg?fit=1024%2C576&ssl=1) ;
+    background-size:cover;
+    background-position: center;
+    align-self: center;
+}
+
+
+/*
+.keliling-segitiga-header{
+    text-align: center;
+    border: 1px solid;
+    background-color: darkgreen;
+    color: chartreuse;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+.keliling-segitiga-content{
+    display: flex;
+    flex-direction:column;
+}
+.keliling-segitiga-img{ 
+    width: 204px;
+    aspect-ratio: 3/2;
+    border: 1px solid;
+    background-image: url(https://i1.wp.com/saintif.com/wp-content/uploads/2020/07/Rumus-keliling-Segitiga.jpg?fit=1024%2C576&ssl=1) ;
+    background-size:cover;
+    background-position: center;
+    align-self: center; */
+
+    .input-wrapper{
+        width: 50%;
+        display:inline-grid;
+        justify-content: flex-start;
+        align-items: center;
+    }
+.input-wrapper>input{
+    width: 65%;
+}
+
+
+.main-content>aside{
+    flex: 1 ;
+}
