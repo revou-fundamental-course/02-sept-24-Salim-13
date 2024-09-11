@@ -45,9 +45,15 @@
     background-position: center;
     align-self: center;
 }
+.form-luas{
+    display: inline-grid;
+}
 
+.hasil-perhitungan{
+    width: 100px;
+    background-color: aqua;
+}
 
-/*
 .keliling-segitiga-header{
     text-align: center;
     border: 1px solid;
@@ -68,7 +74,14 @@
     background-image: url(https://i1.wp.com/saintif.com/wp-content/uploads/2020/07/Rumus-keliling-Segitiga.jpg?fit=1024%2C576&ssl=1) ;
     background-size:cover;
     background-position: center;
-    align-self: center; */
+    align-self: center; /*warning*/
+}
+
+.form-keliling{
+    display: inline-grid;
+
+
+}
 
     .input-wrapper{
         width: 50%;
@@ -80,7 +93,7 @@
     width: 65%;
 }
 
-
+.main-content{display: flex;}
 .main-content>aside{
     flex: 1 ;
 }
